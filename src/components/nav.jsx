@@ -6,7 +6,7 @@ function nav() {
   const changeDark = useStore((state => state.changeDark))
   const changeLight = useStore((state => state.changeLight))
   return (
-    <div className='flex justify-between items-center text-white bg-slate-500 w-screen h-[3.5rem]'>
+    <div className='flex justify-between items-center text-white bg-slate-600 w-screen h-[3.5rem]'>
       <div>
         <a className='ml-6'>Home</a>
         <a className='ml-4'>About</a>

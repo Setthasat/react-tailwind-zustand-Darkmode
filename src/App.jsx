@@ -17,7 +17,7 @@ function App() {
   return (
     <>
     <Nav />
-      <div className={dark ? "flex justify-center items-center w-screen h-screen" : 'bg-slate-600 text-white flex justify-center items-center w-screen h-screen'}>
+      <div className={dark ? "flex justify-center items-center w-screen h-screen" : 'bg-slate-500 text-white flex justify-center items-center w-screen h-screen'}>
         <div className='justify-center items-center w-auto h-auto'>
           <p className="text-[4rem] ml-4 ">Hello Tailwind ඞ</p>
           <div className='flex justify-center items-center'>
